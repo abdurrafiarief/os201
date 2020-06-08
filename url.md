@@ -1,5 +1,7 @@
+---
+permalink: /URLs/
+---
 
-----
 ## Urls for operating systems
 * OS.VLSM.ORG
 * [PAK RMS's BLOG](https://rahmatm.samik-ibrahim.vlsm.org/)
