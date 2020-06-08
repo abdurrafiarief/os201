@@ -3,7 +3,7 @@ permalink: /URLs/
 ---
 
 ## Urls for operating systems
-* OS.VLSM.ORG
+* [OS.VLSM.ORG](OS.VLSM.ORG)
 * [PAK RMS's BLOG](https://rahmatm.samik-ibrahim.vlsm.org/)
 * [Pak Anwar's Channel filled with videos for OS](https://www.youtube.com/channel/UCi3sVI10RtRaVWuq1SOVaSg)
 * [Operating System Concepts (Silberschatz et.al.)](https://codex.cs.yale.edu/avi/os-book/)
