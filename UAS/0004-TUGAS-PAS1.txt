@@ -1,0 +1,37 @@
+Script started on Mon 08 Jun 2020 05:51:31 PM WIB
+abdurrafi.arief@badak:~/uas/os201/UAS$ PS1="$ "
+$ echo $GitHubUser
+abdurrafiarief
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200608-175154-4d15-UAS/>
+$ PS1="\$(eval \$PSTAMP)"
+200608-175220-928a-UAS/> echo -e $CEKSAYA
+abdurrafiarief ZCZCSRIPTSTART 200605-162056 abdurrafiarief
+abdurrafiarief abdurrafiarief 200605-162133-fe0d-abdurrafi.arief/ 200605-162133 SEQOK SUMOK fe0d8fc2
+abdurrafiarief abdurrafiarief 200605-162144-2fdd-abdurrafi.arief/ 200605-162144 SEQOK SUMOK 2fddc09d
+abdurrafiarief abdurrafiarief 200605-162147-f84e-abdurrafi.arief/ 200605-162147 SEQOK SUMOK f84e174a
+abdurrafiarief abdurrafiarief 200605-162154-136e-abdurrafi.arief/ 200605-162154 SEQOK SUMOK 136eb019
+abdurrafiarief ZCZCSCRIPTSTOP 200605-162157 SEQOK
+
+200608-175230-4ca2-UAS/> echo -e $CEKSEBELA1
+abdurrafiarief ZCZCSCRIPTSTART 200607-130526 abhiprayatj
+abdurrafiarief abhiprayatj 200607-130526-c1de-abhipraya.tjondronegoro/ 200607-130526 SEQOK SUMOK c1de37e1
+abdurrafiarief abhiprayatj 200607-130526-c1de-abhipraya.tjondronegoro/ 200607-130526 SEQOK SUMOK c1de37e1
+abdurrafiarief abhiprayatj 200607-130541-0513-abhipraya.tjondronegoro/ 200607-130541 SEQOK SUMOK 05135e95
+abdurrafiarief abhiprayatj 200607-130549-6787-abhipraya.tjondronegoro/ 200607-130549 SEQOK SUMOK 67877a99
+abdurrafiarief ZCZCSCRIPTSTOP 200607-130557 SEQOK
+
+200608-175241-28a1-UAS/> echo -e $CEKSEBELA2
+abdurrafiarief ZCZCSRIPTSTART 200604-200142 abifajri
+abdurrafiarief abifajri 200604-200549-5e3d-abi.fajri/ 200604-200549 SEQOK SUMOK 5e3d7c44
+abdurrafiarief abifajri 200604-200553-85b3-abi.fajri/ 200604-200553 SEQOK SUMOK 85b3bf09
+abdurrafiarief abifajri 200604-200558-fe28-abi.fajri/ 200604-200558 SEQOK SUMOK fe288a0a
+abdurrafiarief abifajri 200604-200609-05de-abi.fajri/ 200604-200609 SEQOK SUMOK 05deea2a
+abdurrafiarief ZCZCSCRIPTSTOP 200604-200634 SEQOK
+
+200608-175253-6eb1-UAS/> exit
+exit
+
+Script done on Mon 08 Jun 2020 05:53:00 PM WIB
