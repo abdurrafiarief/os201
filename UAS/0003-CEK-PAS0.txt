@@ -1,28 +1,0 @@
-Script started on Mon 08 Jun 2020 01:02:41 PM WIB
-]0;abdurrafi.arief@badak: ~/uas/os201/UASabdurrafi.arief@badak:~/uas/os201/UAS$ PS1 [K="$ "
-$ echo %[K$GitHubUser
-abdurrafiarief
-$ $echo $PSTAMP[1P
-TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
-$ PS1="\$(eval ][K\$PSTAMP)"
-200608-130341-bc90-UAS/> ls -F
-0000-mypub.txt  0001-mytest.txt  0002-mytest.txt.asc  0003-CEK-PAS0.txt
-200608-130347-b10d-UAS/> sha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txt. asc[K[A200608-130347-b10d-UAS/> sha1sum 0000-mypub.txt 0001-mytest.txt 0002-mytest.txt.aasc > SHA1SUM
-200608-130442-710a-UAS/> sha1sum -c SHA1SUM
-0000-mypub.txt: OK
-0001-mytest.txt: OK
-0002-mytest.txt.asc: OK
-200608-130451-d12e-UAS/> gpg2 -sb -a SHA1SUM
-
-You need a passphrase to unlock the secret key for
-user: "Abdurrafi Arief (bismillah versi 2) <abdurrafi.arief@ui.ac.id>"
-2048-bit RSA key, ID 697934D1, created 2020-06-05
-
-[?1049h[1;20r(B[m[4l[?7h[?1h=[39;49m[39;49m[H[2J(B[m[5;4H(0[0mlqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk(B(B[m[6;4H(0[0mx(B[0m Please enter the passphrase to unlock the secret key for the OpenPGP  (0[0mx(B(B[m[7;4H(0[0mx(B[0m certificate:[76G(0[0mx(B(B[m[8;4H(0[0mx(B[0m "Abdurrafi Arief (bismillah versi 2) <abdurrafi.arief@ui.ac.id>"[76G(0[0mx(B(B[m[9;4H(0[0mx(B[0m 2048-bit RSA key, ID 697934D1,[76G(0[0mx(B(B[m[10;4H(0[0mx(B[0m created 2020-06-05.[76G(0[0mx(B(B[m[11;4H(0[0mx(B(B[m[76G(0[0mx(B(B[m[12;4H(0[0mx(B(B[m[76G(0[0mx(B(B[m[13;4H(0[0mx(B[0m Passphrase __________________________________________________________ (0[0mx(B(B[m[14;4H(0[0mx(B(B[m[76G(0[0mx(B(B[m[15;4H(0[0mx(B(B[m[15;15H(0[0m(B[0m<OK>[15;60H<Cancel>[76G(0[0mx(B(B[m[16;4H(0[0mmqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj(B(B[m[13;17H(0[0m(B(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m_(B[m_(B[m_(B[m_(B[m_(B[m_(B[m_(B[m_(B[m_(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m*(B[m[20;1H[?1049l[?1l>200608-130506-f12f-UAS/> gpg2 --verify SHA1SUM.asc
-gpg: assuming signed data in 'SHA1SUM'
-gpg: Signature made Mon 08 Jun 2020 01:05:06 PM WIB using RSA key ID 697934D1
-gpg: Good signature from "Abdurrafi Arief (bismillah versi 2) <abdurrafi.arief@ui.ac.id>" [ultimate]
-200608-130525-d14b-UAS/> exit
-exit
-
-Script done on Mon 08 Jun 2020 01:05:31 PM WIB
